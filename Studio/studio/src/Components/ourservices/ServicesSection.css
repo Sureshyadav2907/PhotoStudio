@@ -1,0 +1,73 @@
+/* Font Style */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&display=swap');
+
+.services-section1 {
+  font-family: 'Playfair Display', serif;
+  color: #333;
+  padding: 50px;
+  background-color: #f8f3ee;
+  width: 100%;
+  margin-top: -125px;
+}
+
+.services-header1 {
+  text-align: center;
+  color: white;
+  background-color: black;
+  padding: 30px 0;
+  width: 100%;
+  height: 30vh;
+}
+
+.services-header1 h1 {
+  font-size: 36px;
+  font-weight: 700;
+ font-family: cursive;
+margin-top: 4.5rem;
+}
+
+.services-header1 p {
+  font-size: 13px;
+  font-weight: 400;
+  margin-top: 30px;
+  color: #d1d1d1;
+}
+
+.service-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0;
+  gap: 10rem
+  ;
+}
+
+.service-description {
+  flex: 1;
+  /* margin-left: 30px; */
+}
+
+.service-image {
+  flex: 1;
+  max-width: 500px;
+  border-radius: 10px;
+}
+
+.service-description h2 {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.service-description p {
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 30px;
+  max-width: 700px;
+}
+
+/* Pre-wedding photography item specific styles */
+.service-item:nth-child(even) .service-description {
+  margin-left: 0;
+  margin-right: 30px;
+}

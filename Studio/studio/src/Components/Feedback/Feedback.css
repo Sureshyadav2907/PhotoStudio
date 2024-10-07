@@ -1,0 +1,70 @@
+/* 
+
+
+.section__container {
+    max-width: var(--max-width);
+    margin: auto;
+    padding: 5rem 1rem;
+  }
+
+  .section__header {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: var(--header-font);
+    color: var(--text-dark);
+    text-align: center;
+  } */
+  .client__container {
+    padding-bottom: 2rem;
+  }
+  
+  
+.swiper {
+    margin-top: 2rem;
+    padding-bottom: 3rem;
+    width: 100%;
+  }
+  
+  .client__card {
+    max-width: 900px;
+    margin-inline: auto;
+    text-align: center;
+  }
+  
+  .client__card img {
+    max-width: 120px;
+    margin-inline: auto;
+    margin-bottom: 2rem;
+    border-radius: 100%;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .client__card p {
+    margin-bottom: 1rem;
+    color: var(--text-light);
+    line-height: 1.75rem;
+  }
+  
+  .client__card h4 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--text-dark);
+  }
+  
+  .swiper-pagination-bullet-active {
+    background-color: var(--text-dark);
+  }
+  /* Customize the pagination bullets */
+.swiper-pagination-bullet {
+    width: 120px;
+    height: 102px;
+    background-color: #ccc;
+    opacity: 0.5;
+  }
+  
+  .swiper-pagination-bullet-active {
+    background-color: #ff5722;  /* Color for active bullet */
+    opacity: 1;
+  }
+  
